@@ -11,7 +11,7 @@ namespace SerializerLab
         private Dictionary<string, Animal> Dictionary;
 
         private List<Animal> ListofAnimals;
-        private ISerialization SerializationText;
+        private ISerialization SerializationJson;
         public Serializer()
         {
             InitializeComponent();
@@ -19,7 +19,7 @@ namespace SerializerLab
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            SerializationText = new JSONSerializer();
+            SerializationJson = new JSONSerialization();
 
             ListofAnimals = new List<Animal>();
 
@@ -45,7 +45,7 @@ namespace SerializerLab
                 return;
 
             string filename = saveFileDialog1.FileName;
-            string result = SerializationText.Serialize(ListofAnimals);
+            string result = SerializationJson.Serialize(ListofAnimals);
 
             System.IO.File.WriteAllText(filename, result);
         }
@@ -58,7 +58,7 @@ namespace SerializerLab
             string NameofFile = openFileDialog1.FileName;
             string FileData = System.IO.File.ReadAllText(NameofFile);
 
-            ListofAnimals.AddRange(SerializationText.Deserialize(FileData));
+            ListofAnimals.AddRange(SerializationJson.Deserialize(FileData));
             lbList.Items.Clear();
 
             ListShow();

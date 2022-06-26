@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thanh\\OneDrive\\Рабочий стол\\Новая папка\\laboratory-work-3-alextr1git-new_dev\\Serializer.csproj": {}
+    "C:\\Users\\thanh\\OneDrive\\Документы\\GitHub\\laboratory-work-3-ThanhDoIVan\\Serializer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thanh\\OneDrive\\Рабочий стол\\Новая папка\\laboratory-work-3-alextr1git-new_dev\\Serializer.csproj": {
+    "C:\\Users\\thanh\\OneDrive\\Документы\\GitHub\\laboratory-work-3-ThanhDoIVan\\Serializer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thanh\\OneDrive\\Рабочий стол\\Новая папка\\laboratory-work-3-alextr1git-new_dev\\Serializer.csproj",
+        "projectUniqueName": "C:\\Users\\thanh\\OneDrive\\Документы\\GitHub\\laboratory-work-3-ThanhDoIVan\\Serializer.csproj",
         "projectName": "Serializer",
-        "projectPath": "C:\\Users\\thanh\\OneDrive\\Рабочий стол\\Новая папка\\laboratory-work-3-alextr1git-new_dev\\Serializer.csproj",
+        "projectPath": "C:\\Users\\thanh\\OneDrive\\Документы\\GitHub\\laboratory-work-3-ThanhDoIVan\\Serializer.csproj",
         "packagesPath": "C:\\Users\\thanh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thanh\\OneDrive\\Рабочий стол\\Новая папка\\laboratory-work-3-alextr1git-new_dev\\obj\\",
+        "outputPath": "C:\\Users\\thanh\\OneDrive\\Документы\\GitHub\\laboratory-work-3-ThanhDoIVan\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\thanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
